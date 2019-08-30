@@ -10,9 +10,9 @@
         font-size: 20px;
         border-radius: 5px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-        background-color: #66CCCC;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #66CCCC, #66CCCC);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #66CCCC, #66CCCC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-color: #0a89a6;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right,#0a89a6, #0a89a6);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #0a89a6, #0a89a6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
        }
     
@@ -22,8 +22,8 @@
        }
     
        .footer{
-        background: #66CCCC;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #66CCCC, #66CCCC);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #66CCCC, #66CCCC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: #0a89a6;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #0a89a6, #0a89a6);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #0a89a6, #0a89a6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
        }
