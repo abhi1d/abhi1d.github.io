@@ -1,9 +1,9 @@
   
     body,.main-content {
-        width: 100%;
-        background: #eee;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #eeeeee, #eeeeee);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #eeeeee, #eeeeee); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        margin:0;
+        padding:0;
+        background-color: #eee;  /* fallback for old browsers */
+        overflow: hidden;
        }
        .navbar{
         margin:20px;
@@ -21,9 +21,32 @@
          margin:15px;
        }
     
-       .footer{
-        background: #0a89a6;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #0a89a6, #0a89a6);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #0a89a6, #0a89a6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-       }
+
+
+.home-main{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  scroll-snap-type: y mandatory;
+}
+
+.child{
+  width: 100%;
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+.footer{
+  position: inherit;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  background: #0a89a6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0a89a6, #0a89a6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0a89a6, #0a89a6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ }
